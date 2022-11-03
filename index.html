@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRZYSZTOF GROŃSKI</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/article.css" />
+  <link rel="stylesheet" href="css/buttonField.css" />
+  <link rel="stylesheet" href="css/gallery.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/navigation.css" />
+  <link rel="stylesheet" href="css/tableField.css" />
+  <script defer src="js/script.js"> </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="themeMain">
+  <header class="header">
+    <h1 class="header__title"> KRZYSZTOF GROŃSKI </h1>
+  </header>
+  <nav class="navigation">
+    <ul class="navigation__list" text-align="center">
+      <li class="navigation__item"><a href="#gallery" class="navigation__link">GALERIA</a>
+      </li>
+
+      <li class="navigation__item"><a href="#careerText" class="navigation__link">KARIERA</a>
+      </li>
+      <li class="navigation__item"><a href="#interestText" class="navigation__link">ZAINTERESOWANIA</a>
+      </li>
+      <li class="navigation__item"><a href="#hobbyText" class="navigation__link">HOBBY</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="main">
+    <section class="gallery" id="gallery">
+      <img class="gallery__item js-galleryItem" src="https://volcars.pl/frontend/m1/p1.jpg" alt="My portrait">
+    </section>
+    <section class="buttonsField">
+      <button class="buttonsField__button js-buttonPrev">POPRZEDNI</button>
+      <button class="buttonsField__button js-buttonNext">NASTĘPNY</button>
+    </section>
+
+
+
+
+    <article class="article">
+      <h2 class="article__title js-careerHeader" id="careerText"> &nbspPRZEBIEG KARIERY ZAWODOWEJ </h2>
+      <div class="article__textField js-careerText"> Edukację w placówkach państwowych zakończyłem na studiach
+        magistersko-inżynierskich na
+        kierunku <span class="article__span">Inżynieria oprogramowania i systemy informatyczne.</span> Jednak moja
+        kariera
+        potoczyła się innymi
+        torami. Założyłem
+        działalność handlową w branży motoryzacyjnej oraz jubilerskiej.
+        <p>
+          Do programowania wracam po 15-letniej przerwie. Traktuję to jako dodatkowe zajęcie, dzięci któremu będę mógł
+          wziąść udział w interesujących projektach informatycznych. Kurs zweryfikuje na ile się odnajdę w branży,
+          która od zawsze była moją pasją.
+        </p>
+      </div>
+      <h2 class="article__title js-interestHeader" id="interestText"> &nbspZAINTERESOWANIA </h2>
+      <div class="article__textField js-interestText">
+        <p> - <strong>Joga</strong> jest moją ulubioną formą ćwiczeń fizycznych, które przy odpowiedniej dawce ruchu na
+          świeżym powietrzu wyjątkowo skutecznie ożywiają ciało i umysł.</p>
+        <p>
+          - <strong>Zdrowe odżywianie</strong>, starannie dobieram produkty żywieniowe aby spożywane posiłki były
+          zbilansowane wg
+          zalecanych norm, a raz do roku stosuję 10-14 dniową dietę oczyszczającą, aby pozbyć się nagromadzonych
+          złogów
+          toksyn i usunąć pasożyty.
+        </p>
+      </div>
+      <h2 class="article__title js-hobbyHeader" id="hobbyText"> &nbspHOBBY </h2>
+      <div class="article__textField js-hobbyText"> - <b>Piłka nożna, tenis</b>, obecnie głównie w
+        formie towarzyskich spotkań,
+        wcześniej grałem w
+        lidze
+        amatorskiej Red Box gdzie sporadycznie można było zmierzyć się z zawodowymi piłkarzami.<br>
+        - <b>Starcraft</b>, na odstresowanie po intensywnej pracy, lubię grać w turniejach i rozgrywkach drużynowych,
+        ranking
+        <i>Diamond 2</i><br>
+        - <b>Tańce latynoskie</b>, salsa kubańska na poziomie średnim i kizomba, bachata podstawowym, taniec ma
+        wspaniałe
+        działanie terapeutyczne, szybko poprawia humor i relacje międzyludzkie
+      </div>
+    </article>
+
+    <section class="tableField" width="100px">
+
+      <table class="table">
+        <caption class="table__caption"> TAŃCE LATYNOSKIE </caption>
+        <thead>
+          <tr>
+            <th class="table__cell table__cell--header" scope="col">
+              STYL
+            </th>
+            <th class="table__cell table__cell--header" scope="col">
+              POZIOM
+            </th>
+            <th class="table__cell table__cell--header" scope="col">
+              POCHODZENIE
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="table__cell table__cell--header" scope="row">Salsa kubańska</th>
+            <td class="table__cell">zaawansowany</td>
+            <td class="table__cell">Kuba</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header" scope="row">Salsa na 2</th>
+            <td class="table__cell" rowspan="2">średni</td>
+            <td class="table__cell">Nowy Jork</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header" scope="row">Bachata</th>
+            <td class="table__cell">Dominikana</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__cell--header" scope="row">Kizomba</th>
+            <td class="table__cell">podstawowy</td>
+            <td class="table__cell">Angola</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+  </main>
+  <footer class="footer">
+    Copyright © 2022 Krzysztof Groński - all rights reserved
+  </footer>
+
+
+</body>
+
+</html>

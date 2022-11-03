@@ -1,0 +1,30 @@
+.buttonsField {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttonsField__button {
+  color: #f29559;
+  background-color: #202c39;
+  border: 2px solid #283845;
+  border-radius: 4px;
+  text-align: center;
+  font: normal 14px "Arial", serif;
+  margin: 5px;
+  width: 192px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.buttonsField__button:hover {
+  color: #202c39;
+  background-color: #f29559;
+  border: 2px solid #283845;
+  border-radius: 4px;
+  text-align: center;
+  font: normal 14px "Arial", serif;
+  margin: 5px;
+  width: 192;
+  cursor: pointer;
+  padding: 2px;
+}

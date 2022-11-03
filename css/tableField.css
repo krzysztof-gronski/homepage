@@ -1,0 +1,29 @@
+.tableField {
+  overflow-x: auto;
+  text-align: center;
+}
+
+.table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 5px 0px #202c39;
+}
+
+.table__caption {
+  margin: 10px;
+  color: #283845;
+  font: bold 28px "Shojumaru", cursive;
+
+}
+
+.table__cell {
+  color: #202c39;
+  font: normal 16px "Arial", serif;
+  padding: 10px;
+  border: 1px solid #f2d492;
+}
+
+.table__cell--header{
+  background-color: #f29559;
+  border: 1px solid #f2d492;
+}

@@ -1,0 +1,48 @@
+.navigation {
+  background-color: #202c39;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.navigation__list {
+  padding: 12px 0px;
+  list-style-type: none;
+  text-align: center;
+  line-height: 2;
+}
+
+.navigation__item {
+  display: block;
+  color: white;
+  display: inline;
+  padding: 75px;
+
+}
+
+.navigation__link:link {
+  text-decoration: none;
+  font: normal 20px "Arial", serif;
+  color: #f2d492;
+}
+
+.navigation__link:visited {
+  font: normal 20px "Arial", serif;
+  color: #d1b881;
+}
+
+.navigation__link:focus {
+  color: #f2d492;
+  font: normal 20px "Arial", serif;
+  outline: 1px solid #f2d492;
+}
+
+.navigation__link:hover {
+  color: #f29559;
+  font: normal 20px "Arial", serif;
+}
+
+.navigation__link:active {
+  color: #f29559;
+  font: normal 20px "Arial", serif;
+  outline: none;
+}

@@ -1,0 +1,9 @@
+.header__title {
+  color: #f2d492;
+  background-color: #202c39;
+  border: 2px solid #283845;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 0px #202c39;
+}

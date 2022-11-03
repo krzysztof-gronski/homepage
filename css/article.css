@@ -1,0 +1,18 @@
+.article__title {
+  color: #f2d492;
+  background-color: #202c39;
+  border: 2px solid #283845;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.article__textField {
+  color: #202c39;
+  line-height: 1.5;
+  margin: 0px 10px;
+}
+
+.article__span {
+  text-decoration: underline;
+  font-style: italic;
+}
