@@ -23,7 +23,7 @@ Website containing a handful information about the author from both the professi
 - Tabulated data
 
 ## Demo
-https://github.com/krzysztof-gronski/homepage.git
+https://krzysztof-gronski.github.io/homepage
 
 ## Preview
 ![homepagePreview]()
