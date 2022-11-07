@@ -1,6 +1,5 @@
 
-# **Krzysztof Groński**
-# **HOMEPAGE**
+# **Krzysztof Groński - HOMEPAGE**
 
 ## Description
 Website containing a handful information about the author from both the professional and personal side, created to give a little insight into his personality, for people interested in his work and story.
