@@ -25,4 +25,4 @@ Website containing a handful information about the author from both the professi
 https://krzysztof-gronski.github.io/homepage
 
 ## Preview
-![homepagePreview]()
+![homepagePreview](img/homepagePreview.gif)
