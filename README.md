@@ -6,7 +6,7 @@ Website containing a handful information about the author from both the professi
 
 ## Contents
 - Summary of proffesional carrer
-- Hobbies and interest
+- Hobbies and interests
 - Selected details of personal story
 - Photo gallery
 
