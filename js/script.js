@@ -1,17 +1,32 @@
-const buttonPrev = document.querySelector(".js-buttonPrev");
-const buttonNext = document.querySelector(".js-buttonNext");
-const galleryItem = document.querySelector(".js-galleryItem");
-let imgNumber = 1;
+{
 
-buttonPrev.addEventListener("click", () => {
-  let textImgNumber = imgNumber < 2 ? "1" : --imgNumber;
-  galleryItem.src = "https://volcars.pl/frontend/m1/p" + textImgNumber + ".jpg";
-});
+  const buttonPrev = document.querySelector(".js-buttonPrev");
+  const buttonNext = document.querySelector(".js-buttonNext");
+  let imgNumber = 1;
 
-buttonNext.addEventListener("click", () => {
-  let textImgNumber = imgNumber > 2 ? "3" : ++imgNumber;
-  galleryItem.src = "https://volcars.pl/frontend/m1/p" + textImgNumber + ".jpg";
-});
+  buttonPrev.addEventListener("click", () => {
+    changeImage("1");
+  });
+
+  buttonNext.addEventListener("click", () => {
+    changeImage("3");
+  });
+
+  function changeImage(extremeNumber) {
+    const galleryItem = document.querySelector(".js-galleryItem");
+    let textImgNumber;
+    if (extremeNumber === "1") {
+      textImgNumber = imgNumber < 2 ? extremeNumber : --imgNumber;
+    }
+    else {
+      textImgNumber = imgNumber > 2 ? extremeNumber : ++imgNumber;
+    }
+
+    galleryItem.src = "https://volcars.pl/frontend/m1/p" + textImgNumber + ".jpg";
+  }
+
+}
+
 
 
 
