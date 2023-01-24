@@ -22,7 +22,7 @@
       textImgNumber = imgNumber > 2 ? extremeNumber : ++imgNumber;
     }
 
-    galleryItem.src = "https://volcars.pl/frontend/m1/p" + textImgNumber + ".jpg";
+    galleryItem.src = "/img/p" + textImgNumber + ".jpg";
   }
 
 }
