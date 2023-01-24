@@ -22,7 +22,7 @@
       textImgNumber = imgNumber > 2 ? extremeNumber : ++imgNumber;
     }
 
-    galleryItem.src = "./../img/p" + textImgNumber + ".jpg";
+    galleryItem.src = "%PUBLIC_URL%/img/p" + textImgNumber + ".jpg";
   }
 
 }
