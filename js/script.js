@@ -25,6 +25,23 @@
     galleryItem.src = "./img/p" + textImgNumber + ".jpg";
   }
 
+  // test code
+
+  const footer = document.querySelector("footer");
+
+  const header = document.querySelector("header");
+  header.innerHTML="test01";
+
+  const fetchData = async () => {
+    const response = await fetch("localhost:3000/api/CORSTest");
+    const data = await response.json();
+    footer.innerHTML=data.name;
+  };
+
+  fetchData();
+
+  // test code end
+
 }
 
 
