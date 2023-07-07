@@ -30,12 +30,12 @@
   const footer = document.querySelector("footer");
 
   const header = document.querySelector("header");
-  header.innerHTML="test06";
+  header.innerHTML="test07";
 
   const fetchData = async () => {
     const response = await fetch("http://127.0.0.1:3000/api");
-    const data = await response;
-    footer.innerHTML=data;
+    const data = await response.json();
+    footer.innerHTML=data.name;
   };
 
   fetchData();
